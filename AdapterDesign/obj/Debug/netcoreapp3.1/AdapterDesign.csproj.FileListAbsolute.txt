@@ -1,0 +1,13 @@
+C:\Users\Admin\Desktop\final year\design pattern\AdapterDesign\Adapter-design-pattern\AdapterDesign\bin\Debug\netcoreapp3.1\AdapterDesign.exe
+C:\Users\Admin\Desktop\final year\design pattern\AdapterDesign\Adapter-design-pattern\AdapterDesign\bin\Debug\netcoreapp3.1\AdapterDesign.deps.json
+C:\Users\Admin\Desktop\final year\design pattern\AdapterDesign\Adapter-design-pattern\AdapterDesign\bin\Debug\netcoreapp3.1\AdapterDesign.runtimeconfig.json
+C:\Users\Admin\Desktop\final year\design pattern\AdapterDesign\Adapter-design-pattern\AdapterDesign\bin\Debug\netcoreapp3.1\AdapterDesign.runtimeconfig.dev.json
+C:\Users\Admin\Desktop\final year\design pattern\AdapterDesign\Adapter-design-pattern\AdapterDesign\bin\Debug\netcoreapp3.1\AdapterDesign.dll
+C:\Users\Admin\Desktop\final year\design pattern\AdapterDesign\Adapter-design-pattern\AdapterDesign\bin\Debug\netcoreapp3.1\AdapterDesign.pdb
+C:\Users\Admin\Desktop\final year\design pattern\AdapterDesign\Adapter-design-pattern\AdapterDesign\obj\Debug\netcoreapp3.1\AdapterDesign.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\final year\design pattern\AdapterDesign\Adapter-design-pattern\AdapterDesign\obj\Debug\netcoreapp3.1\AdapterDesign.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\final year\design pattern\AdapterDesign\Adapter-design-pattern\AdapterDesign\obj\Debug\netcoreapp3.1\AdapterDesign.AssemblyInfo.cs
+C:\Users\Admin\Desktop\final year\design pattern\AdapterDesign\Adapter-design-pattern\AdapterDesign\obj\Debug\netcoreapp3.1\AdapterDesign.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\final year\design pattern\AdapterDesign\Adapter-design-pattern\AdapterDesign\obj\Debug\netcoreapp3.1\AdapterDesign.dll
+C:\Users\Admin\Desktop\final year\design pattern\AdapterDesign\Adapter-design-pattern\AdapterDesign\obj\Debug\netcoreapp3.1\AdapterDesign.pdb
+C:\Users\Admin\Desktop\final year\design pattern\AdapterDesign\Adapter-design-pattern\AdapterDesign\obj\Debug\netcoreapp3.1\AdapterDesign.genruntimeconfig.cache

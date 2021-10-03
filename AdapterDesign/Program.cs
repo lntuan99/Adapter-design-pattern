@@ -70,8 +70,8 @@ namespace AdapterDesign
             Console.Write("I'm roaring: ");
             shiba.Bark();
         }
-
     }
+
     class Program
     {
         // Và ta có một hàm main như sau
