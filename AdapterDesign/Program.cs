@@ -2,41 +2,12 @@
 
 namespace AdapterDesign
 {
+    public class ProjectorImageResizer { }
+
     public interface IProjector
     {
         public void connectHDMIPort();
-        public IProjector resizeImage();
-    }
-
-    public class LCDProjector : IProjector
-    {
-        public void connectHDMIPort()
-        {
-            Console.WriteLine("connect LCD");
-            Console.WriteLine("[LCD] HDMI connecting...\n");
-        }
-
-        public IProjector resizeImage()
-        {
-            Console.WriteLine("[LCD] resize image...\n");
-            return this;
-        }
-    }
-
-    public class LEDProjector : IProjector
-    {
-        public void connectHDMIPort()
-        {
-            Console.WriteLine("connect LED");
-            Console.WriteLine("[LED] HDMI connecting...\n");
-        }
-
-        public IProjector resizeImage()
-        {
-            Console.WriteLine("[LED] resize image...\n");
-
-            return this;
-        }
+        public ProjectorImageResizer resizeImage();
     }
 
     public class ScreenProjector : IProjector
@@ -52,13 +23,13 @@ namespace AdapterDesign
             tvScreen.connectVGAPort();
         }
 
-        public IProjector resizeImage()
+        public ProjectorImageResizer resizeImage()
         {
-            Console.WriteLine("[TV] resize image...\n");
-
-            return new ScreenProjector(tvScreen);
+            return new TVScreenImageResizer();
         }
     }
+
+    public class TVScreenImageResizer : ProjectorImageResizer { }
 
 
     public class TVScreen 
@@ -76,23 +47,7 @@ namespace AdapterDesign
 
         static void Main(string[] args)
         {
-            TVScreen tv = new TVScreen();
-            LEDProjector led = new LEDProjector();
-            LCDProjector lcd = new LCDProjector();
-
-            ScreenProjector screenProjector = new ScreenProjector(tv);
-
-            Console.WriteLine(">>-----------CONNECT-----------<<");
-            led.connectHDMIPort();
-            lcd.connectHDMIPort();
-            screenProjector.connectHDMIPort();
-            Console.WriteLine(">>-----------------------------<<\n");
-
-            Console.WriteLine(">>---------RESIZE IMAGE---------<<");
-            led.connectHDMIPort();
-            lcd.connectHDMIPort();
-            screenProjector.connectHDMIPort();
-            Console.WriteLine(">>------------------------------<<");
+           
         }
     }
 }
